@@ -28,6 +28,10 @@ header h1 {
     padding: 0 10px 0 50px;
 }
 
+header nav {
+    margin-right: 40px;
+}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -61,3 +65,26 @@ header nav a {
     font-size: 24px;
     padding: 0 10px;
 }
+
+.about-me {
+    display: flex;
+    padding: 25px 30px; 
+}
+
+.about-me h1 {
+    font-size: 48px;
+    text-align: right;
+    padding: 0 15px 0 75px;
+    color: #4f5057;
+}
+
+.about-me p {
+    padding: 10px 15px;
+    border-left: 5px #4f5057;
+    color: #4f5057;
+}
+
+.about-me-header {
+    border-right: 5px solid #4f5057;
+}
+
