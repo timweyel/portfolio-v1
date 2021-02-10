@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 25px 10px;
+    padding: 15px 5px;
 }
 
 header nav a {
@@ -143,4 +143,8 @@ footer a {
     border-bottom: #303036 solid 3px;
     text-decoration: none;
     color: #303036;
+}
+
+@media screen and (max-width: 980px) {
+
 }
