@@ -7,6 +7,9 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #303036;
+    max-width: 1200px;
+    background-color: #dddddd;
+    margin:0 auto;
 }
 
 header {
@@ -47,6 +50,10 @@ header nav a {
     color: #acb1b1;
     border-bottom: #acb1b1 solid 3px;
     padding: 5px 10px;
+}
+
+main {
+    background-color: #acb1b1;
 }
 
 .subtitle-background {
