@@ -66,6 +66,10 @@ header nav a {
     text-align: center;
 }  
 
+.subtitle h2 {
+    width: 100%;
+}
+
 .section-header {
     border-right: 5px solid #4f5057;
     font-size: 36px;
@@ -92,13 +96,14 @@ header nav a {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 800px;
+    margin-left: 25px;
 }
 
 .projects img{
-    width: 350px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     padding: 25px;
 }
 
