@@ -6,10 +6,11 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    color: #303036;
 }
 
 header {
-    background-color: #4f5057;
+    background-color: #303036;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,12 +18,11 @@ header {
 
 header a {
     text-decoration: none;
-    color: #606168;
+    color: #303036;
 }
 
 header h1 {
     background-color: #96c9cf;
-    color: #4f5057;
     margin: 10px 10px 10px 0;
     font-size: 48px;
     padding: 0 10px 0 50px;
@@ -52,39 +52,57 @@ header nav a {
 
 .subtitle-background {
     background-image: url("../images/background-header-technology.jpg");
-    height: 200px;
+    height: 175px;
 
 }
 
 .subtitle {
     background-color: #96c9cf;
-    float: right;
-    margin-right: 50px;
-    margin-top: 135px;
-    color: #4f5057;
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-right: 100px;
     font-size: 24px;
-    padding: 0 10px;
+    position:relative;
+    text-align: center;
+}  
+
+.section-header {
+    border-right: 5px solid #4f5057;
+    font-size: 36px;
+    text-align: right;
+    padding: 25px 30px; 
+    min-width: 250px;
+}
+
+.section-header {
+    padding: 10px;
 }
 
 .about-me {
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.featured-project {
+    padding-left: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+.projects {
     display: flex;
-    padding: 25px 30px; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
 }
 
-.about-me h1 {
-    font-size: 48px;
-    text-align: right;
-    padding: 0 15px 0 75px;
-    color: #4f5057;
+.projects img{
+    width: 350px;
+    height: 200px;
+    padding: 25px;
 }
 
-.about-me p {
+.flex-row {
+    display: flex;
     padding: 10px 15px;
-    border-left: 5px #4f5057;
-    color: #4f5057;
 }
-
-.about-me-header {
-    border-right: 5px solid #4f5057;
-}
-
