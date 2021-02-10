@@ -52,7 +52,6 @@ header nav a {
 .subtitle-background {
     background-image: url("../images/background-header-technology.jpg");
     height: 175px;
-
 }
 
 .subtitle {
@@ -107,31 +106,19 @@ header nav a {
     padding: 10px 15px;
 }
 
-footer {
-    margin-right: 40px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
 footer ul {
     list-style: none;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 footer ul li {
     padding: 55px 50px;
+
 }
 
 footer a {
     color: #96c9cf;
     border-bottom: #96c9cf solid 3px;
-
     text-decoration: none;
     color: #303036;
-}
-
-footer h1 {
-    margin: 10px 10px 10px 0;
-    font-size: 48px;
 }
