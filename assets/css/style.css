@@ -107,9 +107,8 @@ main {
 }
 
 .projects {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 800px;
     margin-left: 25px;
 }
@@ -135,7 +134,6 @@ footer ul {
     list-style: none;
     justify-content: space-between;
 }
-
 
 footer ul li {
     padding: 55px 50px;
