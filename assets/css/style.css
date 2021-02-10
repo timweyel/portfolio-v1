@@ -14,8 +14,9 @@ body {
 
 header {
     background-color: #303036;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -108,10 +109,12 @@ main {
     padding: 25px;
 }
 
+/*
 .flex-row {
     display: flex;
     padding: 10px 15px;
 }
+*/
 
 footer ul {
     list-style: none;
@@ -120,7 +123,6 @@ footer ul {
 
 footer ul li {
     padding: 55px 50px;
-
 }
 
 footer a {
