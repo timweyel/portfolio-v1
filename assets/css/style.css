@@ -136,7 +136,7 @@ footer ul {
 }
 
 footer ul li {
-    padding: 55px 50px;
+  padding: 55px 50px;
 }
 
 footer a {
@@ -243,7 +243,7 @@ footer a {
     margin-left: 50px;
 }
 
-  .projects img{
+  .projects img {
     width: 150px;
     height: 110px;
     padding: 10px 5px 10px 0;
@@ -251,6 +251,6 @@ footer a {
   }
 
   .footer ul li {
-    padding-left: 50px;
+    justify-content: space-evenly;
 }
 }
