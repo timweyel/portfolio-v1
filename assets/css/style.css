@@ -97,16 +97,16 @@ header nav ul li a {
 }
 
 .projects {
-  width: 50%;
+  width: 40%;
   /*margin: 0 auto;*/
   flex-wrap: wrap;
+  
   justify-content: space-evenly;
 }
 
 .projects img {
   margin: 0 15px 15px 0;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   }
 
 .flex-row {
