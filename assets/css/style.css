@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 15px 5px;
+    padding: 25px 5px;
 }
 
 header nav a {
@@ -93,7 +93,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin-right: 100px;
 }
 
 .about-me p {
@@ -107,6 +106,7 @@ main {
 }
 
 .projects {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 800px;
@@ -146,5 +146,37 @@ footer a {
 }
 
 @media screen and (max-width: 980px) {
+  header h1 {
+    font-size: 36px;
+}
+
+.section-header {
+  border-right: 4px solid #4f5057;
+  text-align: right;
+  padding: 30px 30px; 
+  min-width: 350px;
+  font-size: 20px;
+}
+
+  .featured-project {
+    padding-left: 50px;
+    width: 600px;
+    height: 300px;
+}
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: 25px;
+}
+
+  .projects img{
+    width: 300px;
+    height: 225px;
+    padding: 25px;
+  }
 
 }
+
