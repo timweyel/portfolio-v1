@@ -54,3 +54,33 @@ header nav ul li a {
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.subtitle-background {
+  background-image: url("../images/background-header-technology.jpg");
+  height: 175px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subtitle-background h2 {
+  color: #acb1b1;
+  font-size: 28px;
+  padding: 50px 40px 0 0;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+}
+
+
+
+
+
+
+
+
+.flex-row {
+  display: flex;
+}
