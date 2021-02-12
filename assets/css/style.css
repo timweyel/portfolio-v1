@@ -91,22 +91,22 @@ header nav ul li a {
   padding-left: 20px;
   width: 100%;
   margin: 0 auto;
-  display: flex;
   flex-wrap: wrap;
   margin-bottom: 15px;
 }
 
 .projects {
-  width: 40%;
+  /*width: 40%;*/
   /*margin: 0 auto;*/
   flex-wrap: wrap;
-  
-  justify-content: space-evenly;
 }
 
 .projects img {
   margin: 0 15px 15px 0;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 350px;
+  height: auto;
   }
 
 .flex-row {
