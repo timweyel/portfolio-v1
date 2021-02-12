@@ -124,10 +124,10 @@ footer ul li {
 }
 
 @media screen and (max-width: 1640px) {
-      .projects img {
-      width: 700px;
-      height: auto;
-      }
+  .projects img {
+  width: 700px;
+  height: auto;
+  }
 }
 
 @media screen and (max-width: 1580px) {
@@ -148,5 +148,13 @@ footer ul li {
   .projects img {
   width: 100%;
   height: auto;
+  }
+
+  header h1 {
+    font-weight: bold;
+    background-color: #acb1b1;
+    margin: 10px 10px 10px 0;
+    font-size: 28px;
+    padding: 10px 10px 0 50px;
   }
 }
