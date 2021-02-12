@@ -181,10 +181,30 @@ footer ul li {
   }
 }
 
+@media screen and (max-width: 375px) {
+  header h1 {
+    margin: 5px auto auto auto;
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  header nav {
+    margin: auto;
+  }
+
+  header nav ul li {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+  
+  header nav ul li a {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 360px) {
   header h1 {
-    font-weight: bold;
-    background-color: #acb1b1;
     margin: 5px auto auto auto;
     font-size: 28px;
     padding: 10px;
@@ -195,12 +215,12 @@ footer ul li {
   }
 
   header nav ul li a {
-    padding: 5px 15px;
+    padding: 7px 10px;
     font-size: 12px;
   }
   
   .flex-row {
-    padding: 2px;
+    padding: 5px;
   }
 
   .subtitle-background h2 {
