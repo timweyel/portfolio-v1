@@ -201,27 +201,6 @@ footer ul li {
     padding: 5px 15px;
     font-size: 12px;
   }
-}
-
-@media screen and (max-width: 360px) {
-  header h1 {
-    margin: 5px auto auto auto;
-    font-size: 28px;
-    padding: 10px;
-  }
-
-  header nav {
-    margin: auto;
-  }
-
-  header nav ul li a {
-    padding: 7px 10px;
-    font-size: 12px;
-  }
-  
-  .flex-row {
-    padding: 5px;
-  }
 
   .subtitle-background h2 {
     color: #acb1b1;
