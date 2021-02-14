@@ -98,7 +98,7 @@ header nav ul li a {
   /*width: 40%;*/
   /*margin: 0 auto;*/
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .projects img {
@@ -110,7 +110,7 @@ footer ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 footer ul li {
