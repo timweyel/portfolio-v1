@@ -16,3 +16,4 @@ Repository: https://github.com/timweyel/portfolio
 
 Deployed Application: https://timweyel.github.io/portfolio/
 
+![portfolio screenshot](https://user-images.githubusercontent.com/11637772/107867199-c4d7e900-6e2d-11eb-894a-fddc7753d6c3.png)
